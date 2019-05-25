@@ -1,0 +1,2 @@
+change this line to your url
+sim900test.net46.net/getstate.php?color=All

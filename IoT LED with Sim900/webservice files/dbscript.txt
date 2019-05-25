@@ -1,0 +1,15 @@
+
+CREATE TABLE `ledStatus` (
+  `ID` int(11) NOT NULL AUTO_INCREMENT,
+  `Color` varchar(100) COLLATE latin1_general_ci NOT NULL,
+  `State` varchar(10) COLLATE latin1_general_ci NOT NULL,
+  PRIMARY KEY (`ID`)
+) ENGINE=MyISAM  DEFAULT CHARSET=latin1 COLLATE=latin1_general_ci AUTO_INCREMENT=4 ;
+
+--
+-- Dumping data for table `ledStatus`
+--
+
+INSERT INTO `ledStatus` VALUES(1, 'blue', '1');
+INSERT INTO `ledStatus` VALUES(2, 'red', '1');
+INSERT INTO `ledStatus` VALUES(3, 'green', '0');
